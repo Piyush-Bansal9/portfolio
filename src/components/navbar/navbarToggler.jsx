@@ -10,7 +10,7 @@ export default function NavbarToggler() {
     }
 
     return (
-        <button  className="text-2xl p-3 border border-orange-400 rounded-full" onClick = {setToggleMenu}>
+        <button  className="text-2xl p-3 border border-orange rounded-full" onClick = {setToggleMenu}>
             <AlignJustify/>
         </button>
     )

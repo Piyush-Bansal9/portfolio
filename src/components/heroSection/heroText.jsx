@@ -18,7 +18,7 @@ const HeroText = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0 }}
-            className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-orange-500 font-bold uppercase"
+            className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-orange font-bold uppercase"
         >
             Piyush <br className="sm:hidden md:block" />
             Bansal
@@ -28,7 +28,7 @@ const HeroText = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0 }}
-            className="text-lg mt-4 text-black"
+            className="text-lg mt-4"
         >
             A Passionate Web Developer <br /> with 3 years of
             experience.

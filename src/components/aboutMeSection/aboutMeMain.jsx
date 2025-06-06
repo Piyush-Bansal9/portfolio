@@ -6,7 +6,7 @@ import AboutMeImage from "./aboutMeImage"
 function AboutMeMain(){
     return (
         <div id="about"
-            className="flex sm:flex-col md:flex-row gap-12 px-4 max-w-[1200px] mx-auto mt-[100px] justify-between items-center"
+            className="flex sm:flex-col md:flex-row gap-40 px-4 max-w-[1200px] mx-auto mt-[100px] justify-between items-center"
         >
             <motion.div
                 variants={fadeIn("right", 0)}
