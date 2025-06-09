@@ -1,13 +1,14 @@
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
+import { SiC, SiCplusplus, SiExpress, SiFigma, SiGit, SiGithub, SiMongodb, SiMysql, SiPostman, SiPrisma, SiShadcnui, SiTypescript, SiVercel } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variant";
+import { icons } from "lucide-react";
 
 const skills = [
     {
@@ -42,11 +43,59 @@ const skills = [
         skill: "TailwindCSS",
         icon: RiTailwindCssFill,
     },
+    {
+        skill: "Postman",
+        icon: SiPostman
+    },
+    {
+        skill: "MongoDB",
+        icon: SiMongodb
+    },
+    {
+        skill: "MySQL",
+        icon: SiMysql
+    },
+    {
+        skill: "ShadcnUI",
+        icon: SiShadcnui
+    },
+    {
+        skill: "Github",
+        icon: SiGithub
+    },
+    {
+        skill: "Prisma",
+        icon: SiPrisma
+    },
+    {
+        skill: "Express",
+        icon: SiExpress
+    },
+    {
+        skill: "Git",
+        icon: SiGit
+    },
+    {
+        skill: "Vercel",
+        icon: SiVercel
+    },
+    {
+        skill: "Figma",
+        icon: SiFigma
+    },
+    {
+        skill: "C",
+        icon: SiC
+    },
+    {
+        skill: "C++",
+        icon: SiCplusplus
+    }
     ];
 
     const AllSkillsSM = () => {
     return (
-        <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-12 my-12">
+        <div className="grid md:grid-cols-5 sm:grid-cols-2 gap-12 my-12">
         {skills.map((item, index) => {
             return (
             <motion.div

@@ -1,4 +1,4 @@
-const SingleSkill = ({ imgSvg, text }) => {
+const SingleSkill = ({ imgSvg, text}) => {
     return (
         <div className="hover:-translate-y-10 transition-all duration-500">
             <div className="flex flex-col items-center gap-3 relative">
@@ -7,7 +7,7 @@ const SingleSkill = ({ imgSvg, text }) => {
             </div>
             <p className="text-white font-bold">{text}</p>
             </div>
-            <div className="w-[100px] h-[200px] bg-orange absolute top-[50px] -z-10"></div>
+            <div className = "w-[100px] h-[200px] bg-orange absolute top-[50px] -z-10"></div>
         </div>
         );
     };

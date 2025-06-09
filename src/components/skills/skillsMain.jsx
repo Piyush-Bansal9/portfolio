@@ -16,10 +16,10 @@ function SkillsMain() {
                 >
                     <SkillsText/>
                 </motion.div>
-                <div className="bottom-[50px] absolute left-[50%] -translate-x-[50%] sm:hidden lg:block">
+                <div className="bottom-[50px] absolute left-[50%] -translate-x-[50%] sm:hidden lg:hidden">
                     <AllSkills/>
                 </div>
-                <div className="sm:block lg:hidden">
+                <div className="sm:block lg:block">
                     <AllSkillsSM/>
                 </div>
             </div>
