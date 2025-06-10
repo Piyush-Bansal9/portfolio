@@ -4,6 +4,5 @@ function SkillsText() {
         <h2 className="text-3xl text-center text-white">
         Technologies I Work With</h2>
     </div>
-
 }
 export default SkillsText
