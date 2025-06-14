@@ -1,6 +1,7 @@
 
 import AboutMeMain from './components/aboutMeSection/aboutMeMain'
 import ContactMeMain from './components/contactMeSection/contactMeMain'
+import FooterMain from './components/footerSection/footerMain'
 import HeroGradient from './components/heroSection/heroGradient'
 import HeroMain from './components/heroSection/heroMain'
 import Navbar from './components/navbar/navbar'
@@ -22,6 +23,7 @@ function App() {
       <SubSkills/>
       <ProjectsMain/>
       <ContactMeMain/>
+      <FooterMain/>
     </main>
   )
 }
