@@ -31,7 +31,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
             View <BsFillArrowUpRightCircleFill />
             </a>
         </div>
-        <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 ralative border border-white">
+        <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-120 transform transition-all duration-500 ralative border border-white">
             {/* <div className="w-full h-full bg-cyan opacity-0 hover:opacity-50 absolute top-0 left-0 transition-all duration-500 hidden"></div> */}
             <img src={image} alt="website image" className="w-full h-full" />
         </div>
