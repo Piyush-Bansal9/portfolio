@@ -3,6 +3,7 @@ import AboutMeMain from './components/aboutMeSection/aboutMeMain'
 import HeroGradient from './components/heroSection/heroGradient'
 import HeroMain from './components/heroSection/heroMain'
 import Navbar from './components/navbar/navbar'
+import ProjectsMain from './components/projectsSection/ProjectsMain'
 import SkillsMain from './components/skills/skillsMain'
 import SubSkills from './components/skills/subskills'
 import SubHeroMain from './components/subHeroSection/subHeroMain'
@@ -18,6 +19,8 @@ function App() {
       <AboutMeMain/>
       <SkillsMain/>
       <SubSkills/>
+      <ProjectsMain/>
+
     </main>
   )
 }
