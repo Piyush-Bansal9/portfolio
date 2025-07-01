@@ -1,5 +1,5 @@
 import NavbarLinks from "./navbarLinks";
-import NavbarLogo from "./navbarlogo";
+import NavbarLogo from "./navbarLogo";
 import NavbarToggler from "./navbarToggler";
 
 function Navbar() {
