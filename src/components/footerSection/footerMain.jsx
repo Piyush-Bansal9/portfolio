@@ -11,8 +11,8 @@ function FooterMain() {
             section: "skills",
         },
         {
-            name: "Experience",
-            section: "experience",
+            name: "Contact",
+            section: "contact",
         },
         {
             name: "Projects",
