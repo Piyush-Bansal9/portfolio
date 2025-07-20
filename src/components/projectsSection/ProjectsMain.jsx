@@ -5,32 +5,32 @@ import ProjectsText from "./projectsText";
 
 const projects = [
     {
-        name: "Vacation of Africa",
-        year: "Mar2022",
+        name: "TrendHive",
+        year: "E-commerce Platform",
         align: "right",
         image: "/images/website-img-1.jpg",
-        link: "#",
+        link: "https://github.com/Piyush-Bansal9/TrendHive",
         },
         {
-        name: "Moola App",
-        year: "Sept2022",
+        name: "Resolvr-AI",
+        year: "Full Stack AI-Agent",
         align: "left",
-        image: "/images/website-img-2.webp",
-        link: "#",
+        image: "/images/website-img-2.jpg",
+        link: "https://github.com/Piyush-Bansal9/Ticket-AI-Agent",
         },
         {
-        name: "Tourzania",
-        year: "Jan2023",
+        name: "TrustSphere-AI",
+        year: "June2025",
         align: "right",
         image: "/images/website-img-3.jpg",
-        link: "#",
+        link: "https://github.com/HitG010/TrustSphere-AI",
         },
         {
-        name: "Bank of Luck",
-        year: "May2024",
+        name: "Maze Pilot",
+        year: "Path Finding Visualizer",
         align: "left",
         image: "/images/website-img-4.jpg",
-        link: "#",
+        link: "https://mazepilot.netlify.app/",
         },
     ];
     
@@ -54,6 +54,7 @@ const projects = [
                     year={project.year}
                     align={project.align}
                     image={project.image}
+                    link={project.link}
                 />
                 );
             })}
